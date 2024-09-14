@@ -1,43 +1,17 @@
-﻿using ScreenSound.Banco;
+﻿using Microsoft.Extensions.Options;
+using ScreenSound.Banco;
 using ScreenSound.Menus;
 using ScreenSound.Models;
 
-try
-{
-    var artistDAL = new ArtistDAL();
-    /*    artistaDAL.Adicionar(new Artista("Foo Fighters", "Foo Fighters é uma banda de rock alternativo americana formada por Dave Grohl em 1995."));*/
+var context = new ScreenSoundContext();
+var artistDAL = new DAL<Artist>(context);
 
-    var artistPitty = new Artist("Pitty", "Priscilla Novaes Leone, mais conhecida como Pitty, é uma cantora, compositora, produtora, escritora e multi-instrumentista brasileira.") { Id = 1003 };
-
-    artistDAL.Add(artistPitty);
-    var listArtists = artistDAL.Show();
-
-    foreach (var artist in listArtists)
-    {
-        Console.WriteLine(artist);
-    }
-}
-catch (Exception ex)
-{
-
-    Console.WriteLine(ex.Message);
-}
-
-return;
-
-Artist ira = new Artist("Ira!", "Banda Ira!");
-Artist beatles = new Artist("The Beatles", "Banda The Beatles");
-
-Dictionary<string, Artist> registeredArtists = new();
-registeredArtists.Add(ira.Name, ira);
-registeredArtists.Add(beatles.Name, beatles);
-
-Dictionary<int, Menu> opcoes = new();
-opcoes.Add(1, new MenuRegisterArtist());
-opcoes.Add(2, new MenuRegisterMusic());
-opcoes.Add(3, new MenuArtists());
-opcoes.Add(4, new MenuMusics());
-opcoes.Add(-1, new MenuExit());
+Dictionary<int, Menu> option = new();
+option.Add(1, new MenuRegisterArtist());
+option.Add(2, new MenuRegisterMusic());
+option.Add(3, new MenuShowArtists());
+option.Add(4, new MenuShowMusics());
+option.Add(-1, new MenuExit());
 
 void ExibirLogo()
 {
@@ -65,10 +39,10 @@ void ShowOptionsMenu()
     Console.Write("\nDigite a sua opção: ");
     int optionChosen = int.Parse(Console.ReadLine()!);
 
-    if (opcoes.ContainsKey(optionChosen))
+    if (option.ContainsKey(optionChosen))
     {
-        Menu menuASerExibido = opcoes[optionChosen];
-        menuASerExibido.Execute(registeredArtists);
+        Menu menuASerExibido = option[optionChosen];
+        menuASerExibido.Execute(artistDAL);
         if (optionChosen > 0) ShowOptionsMenu();
     }
     else

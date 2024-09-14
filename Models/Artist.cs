@@ -2,9 +2,9 @@
 
 namespace ScreenSound.Models;
 
-internal class Artist
+public class Artist
 {
-    private List<Music> musics = new List<Music>();
+    public virtual ICollection<Music> Musics { get; set; } = new List<Music>();
 
     public Artist(string name, string bio)
     {
@@ -18,17 +18,17 @@ internal class Artist
     public string Bio { get; set; }
     public int Id { get; set; }
 
-    public void AdicionarMusica(Music music)
+    public void AddMusic(Music music)
     {
-        musics.Add(music);
+        Musics.Add(music);
     }
 
     public void ShowDiscography()
     {
         Console.WriteLine($"Discografia do artista {Name}");
-        foreach (var music in musics)
+        foreach (var music in Musics)
         {
-            Console.WriteLine($"Música: {music.Name}");
+            Console.WriteLine($"Música: {music.Name} - Ano de lançamento: {music.YearRelease}");
         }
     }
 

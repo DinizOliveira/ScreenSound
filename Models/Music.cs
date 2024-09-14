@@ -1,6 +1,8 @@
-﻿namespace ScreenSound.Modelos;
+﻿using ScreenSound.Models;
 
-internal class Music
+namespace ScreenSound.Modelos;
+
+public class Music
 {
     public Music(string name)
     {
@@ -9,6 +11,8 @@ internal class Music
 
     public string Name { get; set; }
     public int Id { get; set; }
+    public int? YearRelease { get; set; }
+    public virtual Artist? Artist { get; set; }
 
     public void ShowRecord()
     {
