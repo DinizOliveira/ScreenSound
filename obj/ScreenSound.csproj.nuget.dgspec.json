@@ -4,6 +4,156 @@
     "C:\\Users\\diniz\\ScreenSound\\ScreenSound.csproj": {}
   },
   "projects": {
+    "C:\\Users\\diniz\\ScreenSound.Shared.Data\\ScreenSound.Shared.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\diniz\\ScreenSound.Shared.Data\\ScreenSound.Shared.Data.csproj",
+        "projectName": "ScreenSound.Shared.Data",
+        "projectPath": "C:\\Users\\diniz\\ScreenSound.Shared.Data\\ScreenSound.Shared.Data.csproj",
+        "packagesPath": "C:\\Users\\diniz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diniz\\ScreenSound.Shared.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\diniz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\diniz\\ScreenSoundSharedModels\\ScreenSound.Shared.Models.csproj": {
+                "projectPath": "C:\\Users\\diniz\\ScreenSoundSharedModels\\ScreenSound.Shared.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\diniz\\ScreenSoundSharedModels\\ScreenSound.Shared.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\diniz\\ScreenSoundSharedModels\\ScreenSound.Shared.Models.csproj",
+        "projectName": "ScreenSound.Shared.Models",
+        "projectPath": "C:\\Users\\diniz\\ScreenSoundSharedModels\\ScreenSound.Shared.Models.csproj",
+        "packagesPath": "C:\\Users\\diniz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diniz\\ScreenSoundSharedModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\diniz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\diniz\\ScreenSound\\ScreenSound.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +177,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\diniz\\ScreenSound.Shared.Data\\ScreenSound.Shared.Data.csproj": {
+                "projectPath": "C:\\Users\\diniz\\ScreenSound.Shared.Data\\ScreenSound.Shared.Data.csproj"
+              },
+              "C:\\Users\\diniz\\ScreenSoundSharedModels\\ScreenSound.Shared.Models.csproj": {
+                "projectPath": "C:\\Users\\diniz\\ScreenSoundSharedModels\\ScreenSound.Shared.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

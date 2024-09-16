@@ -51,16 +51,18 @@
               "RelativeToolTip": "..\\ScreenSoundSharedModels\\Models\\Artist.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:24:05.977Z"
+              "WhenOpened": "2024-09-15T14:24:05.977Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "dbo.Artists.sql",
+              "Title": "dbo.Artists [Dados]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ScreenSoundV0/True/SqlTable/dbo.Artists.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ScreenSoundV0/True/SqlTable/dbo.Artists.sql",
+              "ToolTip": "dbo.Artists [Dados]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-09-15T14:23:12.66Z"
+              "WhenOpened": "2024-09-15T14:23:12.66Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -72,7 +74,8 @@
               "RelativeToolTip": "..\\ScreenSound.Shared.Data\\Banco\\ScreenSoundContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T00:25:58.816Z"
+              "WhenOpened": "2024-09-15T00:25:58.816Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -84,7 +87,8 @@
               "RelativeToolTip": "..\\ScreenSound.Shared.Data\\Banco\\DAL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T00:25:57.363Z"
+              "WhenOpened": "2024-09-15T00:25:57.363Z",
+              "EditorCaption": ""
             }
           ]
         }

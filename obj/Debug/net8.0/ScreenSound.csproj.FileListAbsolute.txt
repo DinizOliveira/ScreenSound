@@ -274,3 +274,7 @@ C:\Users\diniz\ScreenSound\obj\Debug\net8.0\refint\ScreenSound.dll
 C:\Users\diniz\ScreenSound\obj\Debug\net8.0\ScreenSound.pdb
 C:\Users\diniz\ScreenSound\obj\Debug\net8.0\ScreenSound.genruntimeconfig.cache
 C:\Users\diniz\ScreenSound\obj\Debug\net8.0\ref\ScreenSound.dll
+C:\Users\diniz\ScreenSound\bin\Debug\net8.0\ScreenSound.Shared.Data.dll
+C:\Users\diniz\ScreenSound\bin\Debug\net8.0\ScreenSound.Shared.Models.dll
+C:\Users\diniz\ScreenSound\bin\Debug\net8.0\ScreenSound.Shared.Data.pdb
+C:\Users\diniz\ScreenSound\bin\Debug\net8.0\ScreenSound.Shared.Models.pdb
