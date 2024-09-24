@@ -1,21 +1,15 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\diniz\\ScreenSound\\",
+  "WorkspaceRootPath": "C:\\Users\\diniz.oliveira\\OneDrive\\Documentos\\GitHub\\ScreenSound\\ScreenSound\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{808777DD-6622-48B9-9E48-413352794E00}|..\\ScreenSound.API\\ScreenSound.API.csproj|c:\\users\\diniz\\screensound.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{808777DD-6622-48B9-9E48-413352794E00}|..\\ScreenSound.API\\ScreenSound.API.csproj|c:\\users\\diniz.oliveira\\onedrive\\documentos\\github\\screensound\\screensound.api\\endpoints\\musicsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35491B11-8998-466C-A2D4-302EAF7CFFB9}|..\\ScreenSound.Shared.Data\\ScreenSound.Shared.Data.csproj|c:\\users\\diniz\\screensound.shared.data\\banco\\screensoundcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{808777DD-6622-48B9-9E48-413352794E00}|..\\ScreenSound.API\\ScreenSound.API.csproj|c:\\users\\diniz.oliveira\\onedrive\\documentos\\github\\screensound\\screensound.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{007DE313-18A0-4036-B623-D9CB0E2B7FF5}|..\\ScreenSoundSharedModels\\ScreenSound.Shared.Models.csproj|c:\\users\\diniz\\screensoundsharedmodels\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ScreenSoundV0/True/SqlTable/dbo.Artists.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35491B11-8998-466C-A2D4-302EAF7CFFB9}|..\\ScreenSound.Shared.Data\\ScreenSound.Shared.Data.csproj|c:\\users\\diniz\\screensound.shared.data\\banco\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{007DE313-18A0-4036-B623-D9CB0E2B7FF5}|..\\ScreenSoundSharedModels\\ScreenSound.Shared.Models.csproj|c:\\users\\diniz.oliveira\\onedrive\\documentos\\github\\screensound\\screensoundsharedmodels\\models\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,66 +19,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\diniz\\ScreenSound.API\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\diniz.oliveira\\OneDrive\\Documentos\\GitHub\\ScreenSound\\ScreenSound.API\\Program.cs",
               "RelativeDocumentMoniker": "..\\ScreenSound.API\\Program.cs",
-              "ToolTip": "C:\\Users\\diniz\\ScreenSound.API\\Program.cs",
+              "ToolTip": "C:\\Users\\diniz.oliveira\\OneDrive\\Documentos\\GitHub\\ScreenSound\\ScreenSound.API\\Program.cs",
               "RelativeToolTip": "..\\ScreenSound.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAYAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T23:25:24.661Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T13:04:59.971Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Artist.cs",
-              "DocumentMoniker": "C:\\Users\\diniz\\ScreenSoundSharedModels\\Models\\Artist.cs",
-              "RelativeDocumentMoniker": "..\\ScreenSoundSharedModels\\Models\\Artist.cs",
-              "ToolTip": "C:\\Users\\diniz\\ScreenSoundSharedModels\\Models\\Artist.cs",
-              "RelativeToolTip": "..\\ScreenSoundSharedModels\\Models\\Artist.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Music.cs",
+              "DocumentMoniker": "C:\\Users\\diniz.oliveira\\OneDrive\\Documentos\\GitHub\\ScreenSound\\ScreenSoundSharedModels\\Models\\Music.cs",
+              "RelativeDocumentMoniker": "..\\ScreenSoundSharedModels\\Models\\Music.cs",
+              "ToolTip": "C:\\Users\\diniz.oliveira\\OneDrive\\Documentos\\GitHub\\ScreenSound\\ScreenSoundSharedModels\\Models\\Music.cs",
+              "RelativeToolTip": "..\\ScreenSoundSharedModels\\Models\\Music.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T14:24:05.977Z"
+              "WhenOpened": "2024-09-23T13:42:05.87Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "dbo.Artists.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ScreenSoundV0/True/SqlTable/dbo.Artists.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ScreenSoundV0/True/SqlTable/dbo.Artists.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-09-15T14:23:12.66Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ScreenSoundContext.cs",
-              "DocumentMoniker": "C:\\Users\\diniz\\ScreenSound.Shared.Data\\Banco\\ScreenSoundContext.cs",
-              "RelativeDocumentMoniker": "..\\ScreenSound.Shared.Data\\Banco\\ScreenSoundContext.cs",
-              "ToolTip": "C:\\Users\\diniz\\ScreenSound.Shared.Data\\Banco\\ScreenSoundContext.cs",
-              "RelativeToolTip": "..\\ScreenSound.Shared.Data\\Banco\\ScreenSoundContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MusicsExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\diniz.oliveira\\OneDrive\\Documentos\\GitHub\\ScreenSound\\ScreenSound.API\\Endpoints\\MusicsExtensions.cs",
+              "RelativeDocumentMoniker": "..\\ScreenSound.API\\Endpoints\\MusicsExtensions.cs",
+              "ToolTip": "C:\\Users\\diniz.oliveira\\OneDrive\\Documentos\\GitHub\\ScreenSound\\ScreenSound.API\\Endpoints\\MusicsExtensions.cs",
+              "RelativeToolTip": "..\\ScreenSound.API\\Endpoints\\MusicsExtensions.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAswEkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T00:25:58.816Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DAL.cs",
-              "DocumentMoniker": "C:\\Users\\diniz\\ScreenSound.Shared.Data\\Banco\\DAL.cs",
-              "RelativeDocumentMoniker": "..\\ScreenSound.Shared.Data\\Banco\\DAL.cs",
-              "ToolTip": "C:\\Users\\diniz\\ScreenSound.Shared.Data\\Banco\\DAL.cs",
-              "RelativeToolTip": "..\\ScreenSound.Shared.Data\\Banco\\DAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T00:25:57.363Z"
+              "WhenOpened": "2024-09-23T12:54:01.16Z",
+              "EditorCaption": ""
             }
           ]
         }
