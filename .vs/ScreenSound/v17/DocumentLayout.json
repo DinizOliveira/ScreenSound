@@ -3,13 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\diniz.oliveira\\OneDrive\\Documentos\\GitHub\\ScreenSound\\ScreenSound\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{808777DD-6622-48B9-9E48-413352794E00}|..\\ScreenSound.API\\ScreenSound.API.csproj|c:\\users\\diniz.oliveira\\onedrive\\documentos\\github\\screensound\\screensound.api\\endpoints\\musicsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35491B11-8998-466C-A2D4-302EAF7CFFB9}|..\\ScreenSound.Shared.Data\\ScreenSound.Shared.Data.csproj|c:\\users\\diniz.oliveira\\onedrive\\documentos\\github\\screensound\\screensound.shared.data\\banco\\screensoundcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808777DD-6622-48B9-9E48-413352794E00}|..\\ScreenSound.API\\ScreenSound.API.csproj|c:\\users\\diniz.oliveira\\onedrive\\documentos\\github\\screensound\\screensound.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808777DD-6622-48B9-9E48-413352794E00}|..\\ScreenSound.API\\ScreenSound.API.csproj|c:\\users\\diniz.oliveira\\onedrive\\documentos\\github\\screensound\\screensound.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{808777DD-6622-48B9-9E48-413352794E00}|..\\ScreenSound.API\\ScreenSound.API.csproj|c:\\users\\diniz.oliveira\\onedrive\\documentos\\github\\screensound\\screensound.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{007DE313-18A0-4036-B623-D9CB0E2B7FF5}|..\\ScreenSoundSharedModels\\ScreenSound.Shared.Models.csproj|c:\\users\\diniz.oliveira\\onedrive\\documentos\\github\\screensound\\screensoundsharedmodels\\models\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,44 +22,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\diniz.oliveira\\OneDrive\\Documentos\\GitHub\\ScreenSound\\ScreenSound.API\\Program.cs",
               "RelativeDocumentMoniker": "..\\ScreenSound.API\\Program.cs",
               "ToolTip": "C:\\Users\\diniz.oliveira\\OneDrive\\Documentos\\GitHub\\ScreenSound\\ScreenSound.API\\Program.cs",
               "RelativeToolTip": "..\\ScreenSound.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T13:04:59.971Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Music.cs",
-              "DocumentMoniker": "C:\\Users\\diniz.oliveira\\OneDrive\\Documentos\\GitHub\\ScreenSound\\ScreenSoundSharedModels\\Models\\Music.cs",
-              "RelativeDocumentMoniker": "..\\ScreenSoundSharedModels\\Models\\Music.cs",
-              "ToolTip": "C:\\Users\\diniz.oliveira\\OneDrive\\Documentos\\GitHub\\ScreenSound\\ScreenSoundSharedModels\\Models\\Music.cs",
-              "RelativeToolTip": "..\\ScreenSoundSharedModels\\Models\\Music.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T13:42:05.87Z"
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MusicsExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\diniz.oliveira\\OneDrive\\Documentos\\GitHub\\ScreenSound\\ScreenSound.API\\Endpoints\\MusicsExtensions.cs",
-              "RelativeDocumentMoniker": "..\\ScreenSound.API\\Endpoints\\MusicsExtensions.cs",
-              "ToolTip": "C:\\Users\\diniz.oliveira\\OneDrive\\Documentos\\GitHub\\ScreenSound\\ScreenSound.API\\Endpoints\\MusicsExtensions.cs",
-              "RelativeToolTip": "..\\ScreenSound.API\\Endpoints\\MusicsExtensions.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAswEkAAAANAAAA",
+              "Title": "ScreenSoundContext.cs",
+              "DocumentMoniker": "C:\\Users\\diniz.oliveira\\OneDrive\\Documentos\\GitHub\\ScreenSound\\ScreenSound.Shared.Data\\Banco\\ScreenSoundContext.cs",
+              "RelativeDocumentMoniker": "..\\ScreenSound.Shared.Data\\Banco\\ScreenSoundContext.cs",
+              "ToolTip": "C:\\Users\\diniz.oliveira\\OneDrive\\Documentos\\GitHub\\ScreenSound\\ScreenSound.Shared.Data\\Banco\\ScreenSoundContext.cs",
+              "RelativeToolTip": "..\\ScreenSound.Shared.Data\\Banco\\ScreenSoundContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T12:54:01.16Z",
+              "WhenOpened": "2024-09-25T15:07:37.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\diniz.oliveira\\OneDrive\\Documentos\\GitHub\\ScreenSound\\ScreenSound.API\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\ScreenSound.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\diniz.oliveira\\OneDrive\\Documentos\\GitHub\\ScreenSound\\ScreenSound.API\\appsettings.json",
+              "RelativeToolTip": "..\\ScreenSound.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-25T15:04:52.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\diniz.oliveira\\OneDrive\\Documentos\\GitHub\\ScreenSound\\ScreenSound.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "..\\ScreenSound.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\diniz.oliveira\\OneDrive\\Documentos\\GitHub\\ScreenSound\\ScreenSound.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "..\\ScreenSound.API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-25T15:01:55.399Z",
               "EditorCaption": ""
             }
           ]
